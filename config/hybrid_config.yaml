@@ -1,0 +1,5 @@
+dataset_path: '/Datasets/hybrid_dataset'
+num_main_classes: 27
+num_sub_classes: 14
+
+neighbor_num: 4
