@@ -92,3 +92,28 @@ python train_stage1.py --arc resnet50 --exp-name OpenGprahAU-ResNet50_first_stag
 ```
 python test.py --arc swin_transformer_tiny --exp-name test_OpenGprahAU-ResNet50_first_stage  --resume checkpoints/OpenGprahAU-SwinT_first_stage.pth --draw_text
 ```
+
+
+
+🎓 Citation
+=
+if the code or method help you in the research, please cite the following paper:
+```
+@article{luo2022learning,
+title = {Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition},
+author = {Luo, Cheng and Song, Siyang and Xie, Weicheng and Shen, Linlin and Gunes, Hatice},
+journal={arXiv preprint arXiv:2205.01782},
+year={2022}
+}
+
+
+@inproceedings{luo2022learning,
+  title     = {Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition},
+  author    = {Luo, Cheng and Song, Siyang and Xie, Weicheng and Shen, Linlin and Gunes, Hatice},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  pages     = {1239--1246},
+  year      = {2022}
+}
+
+```
