@@ -52,12 +52,11 @@ Hybrid Dataset
 |arch_type|GoogleDrive link| Average F1-score| Average Acc.|
 | :--- | :---: |  :---: |  :---: | 
 |`Ours (MobileNetV3)`| -| - |  - |
-|`Ours (ResNet-18)`| [link](https://drive.google.com/file/d/1lzmJ6purI3WraBOw1EdNLqAz8YLLCKSd/view?usp=share_link) | 21.29 |  92.43 |
+|`Ours (ResNet-18)`| [link](https://drive.google.com/file/d/1b9yrKF663K9IwY2C2-1SD6azpAdNgBm7/view?usp=share_link) | 22.33 |  92.97 |
 |`Ours (ResNet-50)`| [link](https://drive.google.com/file/d/11xh9r2e4qCpWEtQ-ptJGWut_TQ0_AmSp/view?usp=share_link) | 22.52 |  92.63 |
-|`Ours (ResNet-101)`| - | -  |  -  |
 |`Ours (Swin-Tiny)`| [link](https://drive.google.com/file/d/1JSa-ft965qXJlVGvnoMepbkRkSm78_to/view?usp=share_link) | 22.66 | 92.97 |
-|`Ours (Swin-Small)`| - | - | - |
-|`Ours (Swin-Base)`| - | - | - |
+|`Ours (Swin-Small)`| [link](https://drive.google.com/file/d/1GNjFKpd00nvgYIP2q7AzRSzfzEUfAqfT/view?usp=share_link) | 24.49 | 92.84 |
+|`Ours (Swin-Base)`| [link](https://drive.google.com/file/d/1nWwowmq4pQn1ACnSOOeyBy6-n0rmqTQ9/view?usp=share_link) | 23.53 | 92.91 |
 
 
 ### Stage2:
@@ -67,7 +66,6 @@ Hybrid Dataset
 |`Ours (MobileNetV3)`| -| - |  - |
 |`Ours (ResNet-18)`| -| - | - |
 |`Ours (ResNet-50)`| - | - | - |
-|`Ours (ResNet-101)`| - | -  | - |
 |`Ours (Swin-Tiny)`| - | - | - |
 |`Ours (Swin-Small)`| - | - | - |
 |`Ours (Swin-Base)`| - | - | - |
@@ -91,29 +89,4 @@ python train_stage1.py --arc resnet50 --exp-name OpenGprahAU-ResNet50_first_stag
 - to test the first stage of our approach (SwinT) on hybrid Dataset, run:
 ```
 python test.py --arc swin_transformer_tiny --exp-name test_OpenGprahAU-ResNet50_first_stage  --resume checkpoints/OpenGprahAU-SwinT_first_stage.pth --draw_text
-```
-
-
-
-🎓 Citation
-=
-if the code or method help you in the research, please cite the following paper:
-```
-@article{luo2022learning,
-title = {Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition},
-author = {Luo, Cheng and Song, Siyang and Xie, Weicheng and Shen, Linlin and Gunes, Hatice},
-journal={arXiv preprint arXiv:2205.01782},
-year={2022}
-}
-
-
-@inproceedings{luo2022learning,
-  title     = {Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition},
-  author    = {Luo, Cheng and Song, Siyang and Xie, Weicheng and Shen, Linlin and Gunes, Hatice},
-  booktitle = {Proceedings of the Thirty-First International Joint Conference on
-               Artificial Intelligence, {IJCAI-22}},
-  pages     = {1239--1246},
-  year      = {2022}
-}
-
 ```
