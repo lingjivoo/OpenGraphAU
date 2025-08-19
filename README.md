@@ -1,5 +1,6 @@
 # OpenGrpahAU
 
+**We released [AU-Canvas](https://github.com/awakening-ai/AUCanvas), a visualization tool that offers an intuitive UI for facial action unit (FAU) detection and enhanced visualization.**
 
 This repo is the OpenGprahAU tool.
 
