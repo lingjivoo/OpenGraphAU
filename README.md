@@ -112,4 +112,17 @@ python test_stage2.py --arc swin_transformer_tiny --exp-name test_OpenGprahAU-Sw
 ```
 
 
+## 🖊️ Citation
+
+If you find this work useful in your research, please cite:
+
+```bibtex
+@inproceedings{luo2022learning,
+  title     = {Learning Multi-dimensional Edge Feature-based AU Relation Graph for Facial Action Unit Recognition},
+  author    = {Luo, Cheng and Song, Siyang and Xie, Weicheng and Shen, Linlin and Gunes, Hatice},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence, {IJCAI-22}},
+  pages     = {1239--1246},
+  year      = {2022}
+}
+```
 
